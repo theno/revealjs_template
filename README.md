@@ -37,24 +37,24 @@ Just open file `index.html` with Firefox:
 Assure the symbolic links exist required for starting from within the subdir
 `reveal.js`:
 
-    ```sh
-    ln -snf  ../img  img
-    ln -snf  ../index.html  index.html
-    ln -snf  ../reveal.js  reveal.js
-    ln -snf  ../slides.md  slides.md
-    ```
+```sh
+ln -snf  ../img  img
+ln -snf  ../index.html  index.html
+ln -snf  ../reveal.js  reveal.js
+ln -snf  ../slides.md  slides.md
+```
 
 Change into `reveal.js` subdir, update third libs and start the site:
 
-    ```sh
-    cd reveal.js
-    npm update  # only required once
-    npm start
-    ```
+```sh
+cd reveal.js
+npm update  # only required once
+npm start
+```
 
 Open with your browser:
 
-    http://localhost:8000
+http://localhost:8000
 
 Note:
 * Works better (and smoother) with Chromium than with Firefox
@@ -65,6 +65,7 @@ Note:
 
 If this repo has its origin master repo at github and githup page is configured
 to build from 'master' branch open this URL:
+
 https://theno.github.io/revealjs_template
 
 
@@ -73,13 +74,14 @@ https://theno.github.io/revealjs_template
 You need the URL of the presentation, either served locally or from github.
 Then, [use decktape](https://github.com/astefanutti/decktape#usage) decktape:
 
-    ```sh
-    cd ~/bin/decktape/active && \
-    ./phantomjs decktape.js --size 1280x800  URL  ~/repos/my_presi/my_presi.pdf
-    ```
+```sh
+cd ~/bin/decktape/active && \
+./phantomjs decktape.js --size 1280x800  URL  ~/repos/my_presi/my_presi.pdf
+```
 (decktape [install command][5])
 
 Or just print the `slides.md` rendered by github into a PDF:
+
 https://github.com/theno/revealjs_template/blob/master/slides.md
 
 
@@ -92,12 +94,12 @@ reveal.js update could be a good idea, too.
 Just re-run task `setup.reveal.js` of
 [fabsetup](https://github.com/theno/fabsetup):
 
-    ```sh
-    cd ~/repos/fabsetup
-    git pull  # updating fabsetup suggested
+```sh
+cd ~/repos/fabsetup
+git pull  # updating fabsetup suggested
 
-    fab setup.revealjs -H localhost
-    ```
+fab setup.revealjs -H localhost
+```
 
 When asked for:
 * Enter dir of this presentation
@@ -109,4 +111,4 @@ When asked for:
 [3]: http://www.fabfile.org/
 [4]: https://github.com/theno/fabsetup/blob/master/howtos/revealjs.md
 [5]: https://github.com/theno/fabsetup/blob/master/howtos/revealjs.md#create-pdf-of-the-presentation-with-decktape
-[6]: https://github.com/theno/fabsetup/
+[6]: https://github.com/theno/fabsetup
