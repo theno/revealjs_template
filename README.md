@@ -109,3 +109,4 @@ When asked for:
 [3]: http://www.fabfile.org/
 [4]: https://github.com/theno/fabsetup/blob/master/howtos/revealjs.md
 [5]: https://github.com/theno/fabsetup/blob/master/howtos/revealjs.md#create-pdf-of-the-presentation-with-decktape
+[6]: https://github.com/theno/fabsetup/
