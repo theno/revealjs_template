@@ -1,0 +1,16 @@
+# cf. https://github.com/github/gitignore
+
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+# ignore a (circling) symbolic link which would cause github page fail to build
+# (but which is required for running locally `cd reveal.js && npm start`)
+/reveal.js/reveal.js

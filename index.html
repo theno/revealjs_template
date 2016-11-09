@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>reveal.js template</title>
+
+        <link rel="stylesheet" href="./reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="./reveal.js/css/theme/solarized.css" id="theme">
+
+        <link rel="stylesheet" href="./reveal.js/lib/css/zenburn.css">
+    </head>
+
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-markdown="slides.md"
+                         data-separator="^\n----  ----\n$"
+                         data-separator-vertical="^\n----\n$">
+                </section>
+            </div>
+        </div>
+
+        <script src="./reveal.js/lib/js/head.min.js"></script>
+        <script src="./reveal.js/js/reveal.js"></script>
+        <script>
+Reveal.initialize({
+    // reveal.js configuration, cf. https://github.com/hakimel/reveal.js/#configuration
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    transition: 'convex',
+    slideNumber: 'c/t',
+    width: 960,
+    height: 800,
+
+    // Optional libraries used to extend on reveal.js
+    dependencies: [
+      { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+
+      // enable built-in plugins
+      { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: './reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: './reveal.js/plugin/zoom/zoom.js' },
+      { src: './reveal.js/plugin/notes/notes.js' },
+      { src: './reveal.js/plugin/math/math.js' },
+
+      // enable additionally installed plugins
+      { src: './reveal.js/plugin/menu/menu.js' },
+      { src: './reveal.js/plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); } },
+      { src: './reveal.js/plugin/toc-progress/toc-progress.js', async: true, callback: function() { toc_progress.initialize(); toc_progress.create(); } },
+    ],
+
+    // plugin settings
+
+    // plugin math, cf. https://github.com/hakimel/reveal.js#mathjax
+    math: {
+        mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+        config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+    },
+
+    // plugin menu, cf. https://github.com/denehyg/reveal.js-menu#configuration
+    menu: {
+        side: 'left',
+        numbers: false,
+        titleSelector: 'h1, h2, h3, h4, h5, h6',
+        hideMissingTitles: false,
+        markers: false,
+        custom: false,
+        themes: [
+            { name: 'Black', theme: './reveal.js/css/theme/black.css' },
+            { name: 'White', theme: './reveal.js/css/theme/white.css' },
+            { name: 'League', theme: './reveal.js/css/theme/league.css' },
+            { name: 'Sky', theme: './reveal.js/css/theme/sky.css' },
+            { name: 'Beige', theme: './reveal.js/css/theme/beige.css' },
+            { name: 'Simple', theme: './reveal.js/css/theme/simple.css' },
+            { name: 'Serif', theme: './reveal.js/css/theme/serif.css' },
+            { name: 'Blood', theme: './reveal.js/css/theme/blood.css' },
+            { name: 'Night', theme: './reveal.js/css/theme/night.css' },
+            { name: 'Moon', theme: './reveal.js/css/theme/moon.css' },
+            { name: 'Solarized', theme: './reveal.js/css/theme/solarized.css' }
+        ],
+        transitions: true,
+        openButton: true,
+        openSlideNumber: true,
+        keyboard: true
+    },
+});
+        </script>
+    </body>
+
+</html>
+
+
+<!--
+file created by github.com/theno/fabsetup
+substituted variables:
+{{presi_title_space}}: reveal.js template
+-->
