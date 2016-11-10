@@ -12,8 +12,7 @@ It is a [reveal.js](http://lab.hakim.se/reveal-js/) presentation which means
 that this presentation is a static HTML5 website using a lot of JavaScript and
 CSS.
 
-It has been set up with the fabric task [setup.revealjs][4]
-([template preview](https://theno.github.io/revealjs_template)) of
+It has been set up with the fabric task [setup.revealjs][1] of
 [fabsetup](https://github.com/theno/fabsetup).
 
 
@@ -56,7 +55,7 @@ Open with your browser:
 
 http://localhost:8000
 
-Note:
+Hints:
 * Works better (and smoother) with Chromium than with Firefox
 * Speaker Notes and PDF export require Chromeium/Chrome
 
@@ -78,7 +77,7 @@ Then, [use decktape](https://github.com/astefanutti/decktape#usage) decktape:
 cd ~/bin/decktape/active && \
 ./phantomjs decktape.js --size 1280x800  URL  ~/repos/my_presi/my_presi.pdf
 ```
-(decktape [install command][5])
+(decktape [install command][2])
 
 Or just print the `slides.md` rendered by github into a PDF:
 
@@ -106,9 +105,10 @@ When asked for:
 * Anwer 'yes' in order to reset (and re-download) reveal.js codebase
 
 
-[1]: http://lab.hakim.se/reveal-js/
-[2]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-[3]: http://www.fabfile.org/
-[4]: https://github.com/theno/fabsetup/blob/master/howtos/revealjs.md
-[5]: https://github.com/theno/fabsetup/blob/master/howtos/revealjs.md#create-pdf-of-the-presentation-with-decktape
+[1]: https://github.com/theno/fabsetup/blob/master/howtos/revealjs.md
+[2]: https://github.com/theno/fabsetup/blob/master/howtos/revealjs.md#create-pdf-of-the-presentation-with-decktape
+
+[3]: http://lab.hakim.se/reveal-js/
+[4]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+[5]: http://www.fabfile.org/
 [6]: https://github.com/theno/fabsetup
