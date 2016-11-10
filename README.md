@@ -8,9 +8,9 @@ set up with the fabric task `setup.revealjs` of fabsetup.
 
 ## Technical Details
 
-It is a [reveal.js](http://lab.hakim.se/reveal-js/) presentation which means
-that this presentation is a static HTML5 website using a lot of JavaScript and
-CSS.
+It is a [reveal.js](http://lab.hakim.se/reveal-js/) presentation
+([source](https://github.com/hakimel/reveal.js)) which means that this
+presentation is a static HTML5 website using a lot of JavaScript and CSS.
 
 It has been set up with the fabric task [setup.revealjs][1] of
 [fabsetup](https://github.com/theno/fabsetup).
