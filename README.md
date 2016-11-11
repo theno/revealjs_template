@@ -57,7 +57,8 @@ http://localhost:8000
 
 Hints:
 * Works better (and smoother) with Chromium than with Firefox
-* Speaker Notes and PDF export require Chromium/Chrome
+* [Speaker Notes](https://github.com/hakimel/reveal.js#speaker-notes)
+  (*push 's'*) and PDF export require Chromium/Chrome
 
 
 ### Open github.io page
