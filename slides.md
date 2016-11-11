@@ -299,7 +299,8 @@ cd ~/bin/decktape/active && \                                               #
 
 ---
 
-* Printing with chromium (or chrome) does not work well:
+* [Printing with chromium](https://github.com/hakimel/reveal.js#pdf-export)
+  (or chrome) does not work well:
   https://theno.github.io/revealjs_template/?print-pdf#/
 
 Note:
