@@ -28,7 +28,7 @@ Just open file `index.html` with Firefox:
     firefox index.html
 
 (Does not work with Chromium which does not import the markdown file
-`slides.md'.)
+`slides.md`.)
 
 
 ### Serve locally
