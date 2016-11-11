@@ -57,7 +57,7 @@ http://localhost:8000
 
 Hints:
 * Works better (and smoother) with Chromium than with Firefox
-* Speaker Notes and PDF export require Chromeium/Chrome
+* Speaker Notes and PDF export require Chromium/Chrome
 
 
 ### Open github.io page
