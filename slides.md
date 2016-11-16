@@ -5,7 +5,7 @@
 
 ## [reveal.js][3] presentation written in [markdown][4] set up with [fabric][5] & [fabsetup][6]
 
-created by [theno](https://github.com/theno) | 2016-11-09 | [online][1] | [src][2]
+created by [theno](https://github.com/theno) | 2016-11-16 | [online][1] | [src][2]
 
 
 [1]: https://theno.github.io/revealjs_template
@@ -25,15 +25,18 @@ created by [theno](https://github.com/theno) | 2016-11-09 | [online][1] | [src][
 
 ## reveal.js
 
-> "A framework for easily creating beautiful presentations using HTML."
+> "A framework for easily creating __beautiful presentations__ using HTML."
 >
 > -- <cite>https://github.com/hakimel/reveal.js</cite>
 
-* It's basically a static website displayed in a browser
-* Works better with Chrome than Firefox
-* Markdown support -> easy editing:
-  * Don't bother with xml syntax
-  * Write slides in a markdown file
+<div class="fragment" />
+
+* It's basically a static website displayed in a *browser*
+  * Works better with *Chrome* than *Firefox*
+* <!-- .element: class="fragment" -->
+  __Markdown support__ -> *easy editing*:
+  * <!-- .element: class="fragment" --> Don't bother with HTML syntax
+  * <!-- .element: class="fragment" --> Write slides in a markdown file
 
 ----
 
@@ -83,6 +86,8 @@ More demos: https://github.com/hakimel/reveal.js/wiki/Example-Presentations
 >
 > -- <cite>http://www.fabfile.org/</cite>
 
+<div class="fragment" />
+
 __`>>shell-deploy-scripts on steroids!<<`__
 
 ----
@@ -106,11 +111,18 @@ def show_ips():
     print('IPs of {}:\n  {}'.format(env.host, ips))
 ```
 
+<div class="fragment" />
+
 __`fab`__ uses the fabfile of the current dir:
 
 ```bash
 > ls
 fabfile.py
+```
+
+<div class="fragment" />
+
+```bash
 > fab show_ips  -H user@example_host
 [example_host] Executing task 'ip_addresses'
 [example_host] run: hostname -I
@@ -192,7 +204,7 @@ fab setup.revealjs  -H localhost
  * Create github repo
  * Download npm libs
 
-*When running again:*
+*When running again (also optional):*
  * Re-install reveal.js codebase
 
 ----

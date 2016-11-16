@@ -5,6 +5,11 @@
 This presentation shows how to create a reveal.js presentation which will be
 set up with the fabric task `setup.revealjs` of fabsetup.
 
+Also, you can use this presentation source as a reveal.js template:
+* Checkout this repo
+* Then set the title in the `index.html` and edit the
+  `slides.md`.
+
 
 ## Technical Details
 
@@ -66,7 +71,7 @@ Hints:
 If this repo has its origin master repo at github and githup page is configured
 to build from 'master' branch open this URL:
 
-https://theno.github.io/revealjs_template
+ https://theno.github.io/revealjs_template
 
 
 ## Create PDF
