@@ -5,7 +5,7 @@
 
 ## [reveal.js][3] presentation written in [markdown][4] set up with [fabric][5] & [fabsetup][6]
 
-created by [theno](https://github.com/theno) | 2016-11-16 | [online][1] | [src][2]
+created by [theno](https://github.com/theno) | 2017-01-05 | [online][1] | [src][2]
 
 
 [1]: https://theno.github.io/revealjs_template
@@ -291,7 +291,7 @@ This additional plugins will be installed and set up, too:
 * ["Raw"][18] `slides.md`: Easy to read and edit
 * Horizontal lines in [rendered Markdown][19]: Easy to read, too
 
-[18]: https://raw.githubusercontent.com/theno/my_presi3/master/slides.md
+[18]: https://raw.githubusercontent.com/theno/revealjs_template/master/slides.md
 [19]: https://github.com/theno/revealjs_template/blob/master/slides.md
 
 ----
